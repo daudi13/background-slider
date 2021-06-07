@@ -58,8 +58,8 @@ body::before {
 
 .arrow {
     position: fixed;
-    background: transparent;
-    color: orange;
+    background-color: transparent;
+    color: #fff;
     font-size: 30px;
     padding: 20px;
     border: 2px solid orange;
@@ -72,12 +72,8 @@ body::before {
 
 .left-arrow {
     left: calc(15vw-65px);
-    top: 50%;
-    transform: translateX(-50px);
 }
 
 .right-arrow {
     right: calc(15vw-65px);
-    top: 50%;
-    transform: translateX(70px);
 }
